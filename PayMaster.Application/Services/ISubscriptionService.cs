@@ -1,4 +1,5 @@
-﻿using PayMaster.Domain.Entities;
+﻿using PayMaster.Application.Dtos;
+using PayMaster.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,10 @@ namespace PayMaster.Application.Services
 {
     public interface ISubscriptionService
     {
-        Task<IEnumerable<Subscription>> GetSubscriptionsForUserAsync(int userId); //belirli bir kullanıcı için abonelikleri almak 
-        Task AddSubscriptionAsync(Subscription subscription); //yeni bir abonelik eklemek için
-        Task UpdateSubscriptionAsync(Subscription subscription); //mevcut bir aboneliği güncellemek için
-        Task DeleteSubscriptionAsync(int subscriptionId);//belirli bir aboneliği silmek için 
+        List<GetSubscriptionDto> GetSubscriptionsForUser(int userId);
+        GetSubscriptionDto GetById(int id);
+        void AddSubscription(AddSubscriptionDto addSubscriptionDto);
+        void UpdateSubscription(UpdateSubscriptionDto updateSubscriptionDto);
+        void DeleteSubscription(int subscriptionId);
     }
 }

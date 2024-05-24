@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayMaster.Domain", "PayMaster.Domain\PayMaster.Domain.csproj", "{253152BC-5E10-4AC2-8F4E-DF71F7754D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayMaster.Domain", "PayMaster.Domain\PayMaster.Domain.csproj", "{253152BC-5E10-4AC2-8F4E-DF71F7754D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayMaster.Application", "PayMaster.Application\PayMaster.Application.csproj", "{4FFC3D05-AF5E-4A2C-84C9-866DF1EABC98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayMaster.Application", "PayMaster.Application\PayMaster.Application.csproj", "{4FFC3D05-AF5E-4A2C-84C9-866DF1EABC98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayMaster.Persistence", "PayMaster.Persistence\PayMaster.Persistence.csproj", "{6E802CF1-3689-437A-8006-15EBDCB33F1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4FFC3D05-AF5E-4A2C-84C9-866DF1EABC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FFC3D05-AF5E-4A2C-84C9-866DF1EABC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FFC3D05-AF5E-4A2C-84C9-866DF1EABC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E802CF1-3689-437A-8006-15EBDCB33F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E802CF1-3689-437A-8006-15EBDCB33F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E802CF1-3689-437A-8006-15EBDCB33F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E802CF1-3689-437A-8006-15EBDCB33F1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
