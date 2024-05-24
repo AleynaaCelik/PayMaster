@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PayMaster.Application.Dtos
+namespace PayMaster.Application.Dtos.Bill
 {
-    public class UpdateBillDto
+    public class AddBillDto
     {
-        public int Id { get; set; }
         public string Description { get; set; }
         public decimal Amount { get; set; }
         public DateTime DueDate { get; set; }

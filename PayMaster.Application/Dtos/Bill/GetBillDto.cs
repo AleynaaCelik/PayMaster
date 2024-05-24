@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PayMaster.Application.Dtos
+namespace PayMaster.Application.Dtos.Bill
 {
     public class GetBillDto
     {

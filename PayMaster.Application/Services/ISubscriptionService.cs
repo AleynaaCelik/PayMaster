@@ -1,4 +1,4 @@
-﻿using PayMaster.Application.Dtos;
+﻿using PayMaster.Application.Dtos.Subscription;
 using PayMaster.Domain.Entities;
 using System;
 using System.Collections.Generic;
